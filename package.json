@@ -1,21 +1,21 @@
 {
-  "name": "tos-init-hello-world",
+  "name": "sunny-hello-world",
   "version": "0.1.0",
-  "description": "A telemetryOS application",
-  "author": "",
+  "description": "Hi World!",
+  "author": "Kurtis",
   "scripts": {
-    "dev": "tos serve",
+    "dev": "vite --port 3000",
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "@telemetryos/sdk": "^1.8.1",
+    "@telemetryos/sdk": "^1.4.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-router": "^7.9.1"
+    "react-router": "^7.9.1",
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.2",
-    "@telemetryos/cli": "^1.8.1",
     "@types/node": "^22.15.3",
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.9",
